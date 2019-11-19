@@ -1,0 +1,62 @@
+学习链接 = [
+    http://redisdoc.com/
+    http://www.redis.cn/
+    https://pusu.info/2019/03/27/Redis%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%8C%E9%9D%A2%E8%AF%95%E5%AE%98%E8%83%BD%E9%97%AE%E5%88%B0%E7%9A%84%E9%83%BD%E5%9C%A8%E8%BF%99%E9%87%8C%E4%BA%86/
+]
+
+redis = [
+    .简介 = Redis是一个使用ANSI C编写的开源、支持网络、基于内存、可选持久性的键值对存储数据库
+    .特点 = [
+            .性能优异 = 基于内存，读写快支持并发10W QPS
+            .线程安全 = 单进程单线程，IO多路复用
+            .丰富数据类型 = [
+                    string
+                    hashes
+                    lists
+                    sets
+                    sorted sets
+                ]
+            .数据持久化 = 可以内存中的数据保存在磁盘中，重启时加载
+            .主从复制
+        ]
+    .应用场景 = [
+            .内存数据库
+            .缓存服务器
+            .分布式sssion共享
+            .任务队列
+            .分布式锁
+            .发布订阅的消息模式
+
+        ]
+]
+
+
+
+@Redis(Renote Dictionary Server) = [
+    .简介 = 基于内存的单线程进程的Key-Value NoSQL数据库，支持@持久化
+    .数据类型（5）= [
+            @string
+            @hash
+            @list
+            @set
+            @zset(sorted set)
+        ]
+    .应用场景 = [
+            @缓存
+            @排行榜
+            @计数器
+            @分布式session
+            @分布式锁
+            @社交网络
+            @最新列表
+            @消息系统
+        ]
+    .持久化方案 = [
+            @RDB = [
+                    .定义 = 在指定的时间间隔内生成数据集的时间点快照（point-in-time snapshot）
+                ]
+            @AOF = [
+                    .定义 = 记录服务器执行的所有写操作命令，并在服务器启动时，通过重新执行这些命令来还原数据集
+                ]
+        ]
+    ]
