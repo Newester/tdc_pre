@@ -8,6 +8,7 @@ require (
 	cloud.google.com/go/pubsub v1.1.0 // indirect
 	cloud.google.com/go/storage v1.4.0 // indirect
 	dmitri.shuralyov.com/gpu/mtl v0.0.0-20191203043605-d42048ed14fd // indirect
+	github.com/Newester/tdc_pre/go-grpc v0.0.0-20191217131804-e9f82f991eb6 // indirect
 	github.com/antihax/optional v1.0.0 // indirect
 	github.com/creack/pty v1.1.9 // indirect
 	github.com/envoyproxy/go-control-plane v0.9.1 // indirect
