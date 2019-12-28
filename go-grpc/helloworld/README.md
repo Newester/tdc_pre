@@ -1,0 +1,1 @@
+C:/Users/sangfor/go/pkg/mod/github.com/grpc-ecosystem/grpc-gateway@v1.12.1/third_party/googleapis

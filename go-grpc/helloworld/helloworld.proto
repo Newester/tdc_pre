@@ -15,8 +15,10 @@ service Greeter {
 
 message HelloRequest {
     string name = 1;
+    bool trueman = 2;
 }
 
 message HelloReply {
     string message = 1;
+    bool truelove = 2;
 }
